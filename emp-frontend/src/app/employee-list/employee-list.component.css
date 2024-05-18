@@ -1,0 +1,97 @@
+/* Container styling */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styling */
+form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.form-group input {
+    width: calc(100% - 120px);
+    margin-right: 10px;
+}
+
+.btn {
+    height: 38px;
+    font-size: 16px;
+}
+
+.inline {
+    display: inline-block;
+}
+
+/* Table styling */
+.table {
+    width: 100%;
+    margin-bottom: 50px;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.table th {
+    background-color: #343a40;
+    color: #fff;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.table-responsive {
+    overflow-x: auto;
+}
+
+/* Button styling */
+.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-sm {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+button {
+    cursor: pointer;
+}
+
+button + button {
+    margin-left: 10px;
+}
+
+/* Margin for bottom space */
+.margin-bottom-50 {
+    margin-bottom: 50px;
+}

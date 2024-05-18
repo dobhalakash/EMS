@@ -1,0 +1,47 @@
+.container-sm {
+    margin-top: 5px;
+    
+}
+
+.form-container {
+    background-color: #ccd3da;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.custom-btn {
+
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.custom-btn:hover {
+    background-color: #333;
+    color: white;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.full-width-button {
+    width: 100%;
+}
+
+.invalid-feedback {
+    color: red;
+}
+
+/* Adjust form-control width for smaller screens */
+@media (max-width: 576px) {
+    .form-control {
+        width: 70%;
+    }
+}
